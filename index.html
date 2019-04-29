@@ -3,24 +3,53 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
+	<link rel="stylesheet" type="" href="estilo.css">
 </head>
 <body>
-	<form action="guardar.php" method="get">
+	<marquee>	<h1>JAIDER</h1>	</marquee>
+	<table border="1" align="center">
+		<tr>
+			<td>
+	<form action="guardar.php" method="post">
+		<fieldset>
+			<legend>datos personales</legend>
+			<label for="">nombre</label>
+			<input type="text" name="nombre" id="" value="">
+		</fieldset>
+		<hr>
 	<label for="">cedula</label>
+	<br>
 	<input type="text" name="ced" id="" value="">
+	<br>
 	<input type="radio" name="musica" id="" value="jazz">Jazz
+	<br>
 	<input type="radio" name="musica" id="" value="chanpeta">Chanpeta
+	<br>
 	<input type="radio" name="musica" id="" value="salsa">Salsa
+	<br>
 	<input type="checkbox" name="medico" id="" value="Medico">Medico
+	<br>
 	<input type="checkbox" name="ingeniero" id="" value="ingeniero">ingeniero
 	<select  name="sexo">
 		<option value="masculino">Masculino</option>
 		<option value="femenino">Femenino</option>
+
 	</select>
 
 
+	
 	<input type="submit" name="" id="" value="enviar">
+	<br>
 	<input type="reset" name="" id="" value="limpiar controles">
+	<br>
+	
+</td>
 
+	
+
+</tr>
 </form>
+</table>
+<td><img src="control.jpg"  alt="center" height="300" vspace="900"></td>
+</body>
 </html>
